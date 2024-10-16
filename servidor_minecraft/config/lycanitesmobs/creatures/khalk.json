@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityKhalk",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelKhalk",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -20,7 +20,7 @@
     "biomeTags": [
       "all"
     ],
-    "spawnWeight": 1,
+    "spawnWeight": 2,
     "dungeonWeight": 0,
     "spawnAreaLimit": 2,
     "spawnGroupMin": 1,
@@ -35,8 +35,8 @@
   "height": 3.5,
   "experience": 15,
   "health": 40,
-  "defense": 5,
-  "armor": 0,
+  "defense": 4,
+  "armor": 16,
   "speed": 20,
   "damage": 4,
   "attackSpeed": 1,

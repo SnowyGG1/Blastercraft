@@ -11,6 +11,12 @@
       "temperature": 1.0
     }
   ],
+  "campfire:campfire": [
+    {
+      "properties": {},
+      "temperature": 6.0
+    }
+  ],
   "lycanitesmobs:frostfire": [
     {
       "properties": {},
@@ -28,7 +34,7 @@
       "properties": {
         "burning": "true"
       },
-      "temperature": 7.0
+      "temperature": 8.0
     },
     {
       "properties": {
@@ -41,6 +47,12 @@
     {
       "properties": {},
       "temperature": 12.5
+    }
+  ],
+  "quark:blaze_rod": [
+    {
+      "properties": {},
+      "temperature": 3.0
     }
   ],
   "realistictorches:torch_lit": [
@@ -58,7 +70,7 @@
   "minecraft:magma": [
     {
       "properties": {},
-      "temperature": 10.0
+      "temperature": 7.0
     }
   ],
   "minecraft:lit_furnace": [

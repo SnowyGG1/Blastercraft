@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityChupacabra",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelChupacabra",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -19,7 +19,7 @@
     ],
     "dimensionListType": "blacklist",
     "ignoreBiome": true,
-    "biomeTags": [],
+    "biomes": [],
     "spawnWeight": 8,
     "dungeonWeight": 200,
     "spawnAreaLimit": 3,
@@ -102,11 +102,12 @@
     },
     {
       "item": "lycanitesmobs:soulstone_beast",
+	  "amountMultiplier": false,
+	  "bonusAmount": false,
       "minAmount": 1,
       "maxAmount": 1,
       "chance": 1,
-      "variant": 3,
-      "bonusAmount": false
+      "variant": 3
     }
   ],
   "sizeScale": 1,

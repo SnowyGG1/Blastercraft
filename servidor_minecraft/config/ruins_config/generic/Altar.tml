@@ -2,10 +2,9 @@
 # Updated to MC 1.9: 21 Apr 2016
 
 weight=1
-unique=1
-embed_into_distance=0
+embed_into_distance=1
 
-unacceptable_target_blocks=flowing_water,water,flowing_lava,lava,Natura:Cloud,red_mushroom_block,brown_mushroom_block,planks,cobblestone,end_stone,obsidian,purpur_block,iron_bars,purpur_slab,purpur_pillar,netherrack,soul_sand,quartz_ore
+unacceptable_target_blocks=bedrock,magma,gravel,nether_brick,glowstone,flowing_water,water,flowing_lava,lava,Natura:Cloud,red_mushroom_block,brown_mushroom_block,planks,cobblestone,end_stone,obsidian,purpur_block,iron_bars,purpur_slab,purpur_pillar,netherrack,soul_sand,quartz_ore
 
 dimensions=13,20,20
 allowable_overhang=0
@@ -22,7 +21,7 @@ rule3=0,100,stone_slab-3
 rule4=0,100,stonebrick
 rule5=0,100,stonebrick-1
 rule6=0,100,stone_brick_stairs-2
-rule7=0,100,stone_brick_stairs
+rule7=0,100,stone_brick_stairs-0
 rule8=0,100,stone_brick_stairs-1
 rule9=0,100,stonebrick-2
 rule10=0,100,double_stone_slab-5

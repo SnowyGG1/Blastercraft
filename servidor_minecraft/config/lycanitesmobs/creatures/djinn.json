@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityDjinn",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelDjinn",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -70,20 +70,20 @@
   "summonable": true,
   "tameable": false,
   "mountable": false,
-  "summonCost": 2,
+  "summonCost": 3,
   "dungeonLevel": 1,
   "drops": [
     {
       "item": "minecraft:feather",
       "minAmount": 1,
       "maxAmount": 4,
-      "chance": 0.5
+      "chance": 0.25
     },
     {
-      "item": "minecraft:chorus_fruit",
+      "item": "rustic:cloudsbluff",
       "minAmount": 1,
       "maxAmount": 4,
-      "chance": 0.5
+      "chance": 0.05
     },
     {
       "item": "minecraft:snowball",

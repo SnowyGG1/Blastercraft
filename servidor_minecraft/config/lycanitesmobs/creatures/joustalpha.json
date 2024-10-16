@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityJoustAlpha",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelJoustAlpha",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -41,7 +41,7 @@
   "experience": 5,
   "health": 20,
   "defense": 1,
-  "armor": 0,
+  "armor": 4,
   "speed": 32,
   "damage": 3,
   "attackSpeed": 2,

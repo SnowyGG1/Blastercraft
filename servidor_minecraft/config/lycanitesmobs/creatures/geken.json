@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityGeken",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelGeken",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -41,7 +41,7 @@
   "experience": 5,
   "health": 20,
   "defense": 0,
-  "armor": 0,
+  "armor": 8,
   "speed": 24,
   "damage": 2,
   "attackSpeed": 2,
@@ -85,6 +85,13 @@
   "drops": [
     {
       "item": "minecraft:bone",
+      "minAmount": 1,
+      "maxAmount": 3,
+      "chance": 1
+    },
+	{
+      "item": "aquaculture:food",
+      "metadata": 1,
       "minAmount": 1,
       "maxAmount": 3,
       "chance": 1

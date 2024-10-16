@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityCinder",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelCinder",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -67,7 +67,7 @@
   "summonable": true,
   "tameable": false,
   "mountable": false,
-  "summonCost": 2,
+  "summonCost": 3,
   "dungeonLevel": 1,
   "drops": [
     {

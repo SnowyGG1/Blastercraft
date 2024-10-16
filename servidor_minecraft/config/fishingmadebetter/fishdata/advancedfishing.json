@@ -10,7 +10,7 @@
     "maxErrorVariance": 3,
     "minWeight": 1,
     "maxWeight": 8,
-    "time": "any",
+    "time": "day",
     "liquid": "water",
     "rainRequired": false,
     "thunderRequired": false,
@@ -330,8 +330,8 @@
       ]
     }
   },
-  "Glowfin": {
-    "fishId": "Glowfin",
+  "Flarefin Koi": {
+    "fishId": "Flarefin Koi",
     "itemId": "advanced-fishing:fish",
     "itemMetaData": 11,
     "description": "a fast, shiny fish that radiates light",
@@ -657,8 +657,8 @@
       ]
     }
   },
-  "Fruiting Voidfin": {
-    "fishId": "Fruiting Voidfin",
+  "Chorus Koi": {
+    "fishId": "Chorus Koi",
     "itemId": "advanced-fishing:fish",
     "itemMetaData": 15,
     "description": "a fish covered in fruiting fungal growths prevalent in the murky void",
@@ -1096,7 +1096,7 @@
     "fishId": "Glacier Anchovy",
     "itemId": "advanced-fishing:fish",
     "itemMetaData": 35,
-    "description": "a tiny arctic fish, often found as large schools frozen in ice",
+    "description": "a tiny artic fish, often found as large schools frozen in ice",
     "minFishTime": 600,
     "maxFishTime": 800,
     "minErrorVariance": 3,
@@ -1240,7 +1240,7 @@
     "maxErrorVariance": 4,
     "minWeight": 2,
     "maxWeight": 8,
-    "time": "any",
+    "time": "night",
     "liquid": "water",
     "rainRequired": false,
     "thunderRequired": false,
@@ -1385,7 +1385,7 @@
     "fishId": "Snowy Walleye",
     "itemId": "advanced-fishing:fish",
     "itemMetaData": 22,
-    "description": "an arctic-dwelling fish with powdery scales that resemble snowflakes",
+    "description": "an artic-dwelling fish with powdery scales that resemble snowflakes",
     "minFishTime": 1000,
     "maxFishTime": 1400,
     "minErrorVariance": 2,
@@ -2438,7 +2438,7 @@
     "maxErrorVariance": 4,
     "minWeight": 5,
     "maxWeight": 20,
-    "time": "any",
+    "time": "day",
     "liquid": "water",
     "rainRequired": false,
     "thunderRequired": false,

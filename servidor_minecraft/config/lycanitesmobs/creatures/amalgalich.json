@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityAmalgalich",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelAmalgalich",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -15,7 +15,7 @@
     "dimensionIds": [],
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
-    "biomeTags": [
+    "biomes": [
       "spooky"
     ],
     "spawnWeight": 1,
@@ -31,17 +31,17 @@
   },
   "width": 18.0,
   "height": 24.0,
-  "experience": 10000,
-  "health": 4000,
-  "defense": 2,
-  "armor": 0,
+  "experience": 12000,
+  "health": 5000,
+  "defense": 4,
+  "armor": 20,
   "speed": 32,
-  "damage": 2,
+  "damage": 8,
   "attackSpeed": 1,
   "rangedSpeed": 1,
   "effectDuration": 5,
   "effectAmplifier": 0,
-  "pierce": 2,
+  "pierce": 8,
   "sight": 64,
   "knockbackResistance": 1,
   "bagSize": 5,
@@ -95,8 +95,8 @@
     },
     {
       "item": "minecraft:ender_pearl",
-      "minAmount": 5,
-      "maxAmount": 10,
+      "minAmount": 10,
+      "maxAmount": 20,
       "chance": 1
     },
     {
@@ -114,7 +114,13 @@
     {
       "item": "minecraft:nether_star",
       "minAmount": 1,
-      "maxAmount": 8,
+      "maxAmount": 4,
+      "chance": 1
+    },
+	{
+      "item": "bountifulbaubles:amuletsinwrath",
+      "minAmount": 1,
+      "maxAmount": 1,
       "chance": 1
     },
     {
@@ -155,24 +161,9 @@
     },
     {
       "item": "lycanitesmobs:soulstone_undead",
-      "minAmount": 1,
-      "maxAmount": 3,
-      "chance": 1,
-      "bonusAmount": false
-    },
-    {
-      "item": "lycanitesmobs:soulstone_aberration",
-      "minAmount": 1,
-      "maxAmount": 3,
-      "chance": 1,
-      "bonusAmount": false
-    },
-    {
-      "item": "lycanitesmobs:soulstone_beast",
-      "minAmount": 1,
-      "maxAmount": 3,
-      "chance": 1,
-      "bonusAmount": false
+      "minAmount": 2,
+      "maxAmount": 4,
+      "chance": 1
     }
   ],
   "sizeScale": 1,

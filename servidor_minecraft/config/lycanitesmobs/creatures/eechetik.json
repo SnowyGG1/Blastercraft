@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityEechetik",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelEechetik",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -15,7 +15,7 @@
     "dimensionIds": [],
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
-    "biomeTags": [],
+    "biomes": [],
     "spawnWeight": 8,
     "dungeonWeight": 200,
     "spawnAreaLimit": 3,
@@ -74,19 +74,19 @@
       "item": "minecraft:slime_ball",
       "minAmount": 1,
       "maxAmount": 2,
-      "chance": 1
+      "chance": 0.5
     },
     {
       "item": "minecraft:brown_mushroom",
       "minAmount": 1,
-      "maxAmount": 1,
-      "chance": 1
+      "maxAmount": 2,
+      "chance": 0.75
     },
     {
       "item": "minecraft:red_mushroom",
-      "minAmount": 2,
+      "minAmount": 1,
       "maxAmount": 3,
-      "chance": 1
+      "chance": 0.75
     },
     {
       "item": "lycanitesmobs:poisongland",

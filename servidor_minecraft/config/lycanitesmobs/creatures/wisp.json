@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityWisp",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelWisp",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -77,7 +77,7 @@
       "item": "minecraft:glowstone_dust",
       "minAmount": 1,
       "maxAmount": 3,
-      "chance": 1
+      "chance": 0.75
     },
     {
       "item": "minecraft:gold_nugget",

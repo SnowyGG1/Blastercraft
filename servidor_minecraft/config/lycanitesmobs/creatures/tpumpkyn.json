@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityTpumpkyn",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelTpumpkyn",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -23,7 +23,7 @@
     "biomeTags": [
       "spooky"
     ],
-    "spawnWeight": 8,
+    "spawnWeight": 2,
     "dungeonWeight": 200,
     "spawnAreaLimit": 3,
     "spawnGroupMin": 1,

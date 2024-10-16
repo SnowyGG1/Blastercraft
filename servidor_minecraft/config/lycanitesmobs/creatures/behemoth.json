@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityBehemoth",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelBehemoth",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -89,7 +89,7 @@
       "metadata": 1,
       "minAmount": 1,
       "maxAmount": 1,
-      "chance": 0.25
+      "chance": 0.2
     },
     {
       "item": "lycanitesmobs:hellfireballcharge",

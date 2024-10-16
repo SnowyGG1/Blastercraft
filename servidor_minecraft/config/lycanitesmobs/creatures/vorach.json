@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityVorach",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelVorach",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -41,7 +41,7 @@
   "experience": 10,
   "health": 40,
   "defense": 2,
-  "armor": 0,
+  "armor": 4,
   "speed": 20,
   "damage": 3,
   "attackSpeed": 1,

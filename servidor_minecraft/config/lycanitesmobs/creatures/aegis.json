@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityAegis",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelAegis",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -15,7 +15,7 @@
     "dimensionIds": [],
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
-    "biomeTags": [],
+    "biomes": [],
     "spawnWeight": 8,
     "dungeonWeight": 0,
     "spawnAreaLimit": 5,
@@ -32,9 +32,9 @@
   "experience": 10,
   "health": 20,
   "defense": 2,
-  "armor": 1,
+  "armor": 8,
   "speed": 24,
-  "damage": 1,
+  "damage": 3,
   "attackSpeed": 8,
   "rangedSpeed": 1,
   "effectDuration": 5,
@@ -67,7 +67,7 @@
   "summonable": true,
   "tameable": false,
   "mountable": false,
-  "summonCost": 2,
+  "summonCost": 4,
   "dungeonLevel": 1,
   "drops": [
     {

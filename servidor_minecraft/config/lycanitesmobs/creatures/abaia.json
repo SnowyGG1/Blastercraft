@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityAbaia",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelAbaia",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -24,7 +24,7 @@
       "all"
     ],
     "spawnWeight": 6,
-    "dungeonWeight": 200,
+    "dungeonWeight": 0,
     "spawnAreaLimit": 5,
     "spawnGroupMin": 1,
     "spawnGroupMax": 3,
@@ -97,16 +97,17 @@
     {
       "item": "minecraft:glowstone_dust",
       "minAmount": 1,
-      "maxAmount": 8,
+      "maxAmount": 6,
       "chance": 1
     },
     {
       "item": "lycanitesmobs:soulstone_aquatic",
+	  "amountMultiplier": false,
+	  "bonusAmount": false,
       "minAmount": 1,
       "maxAmount": 1,
       "chance": 1,
-      "variant": 3,
-      "bonusAmount": false
+      "variant": 3
     }
   ],
   "sizeScale": 1,

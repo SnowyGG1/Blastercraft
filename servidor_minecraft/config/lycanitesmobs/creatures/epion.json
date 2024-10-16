@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityEpion",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelEpion",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -107,11 +107,12 @@
     },
     {
       "item": "lycanitesmobs:soulstone_aberration",
+	  "amountMultiplier": false,
+	  "bonusAmount": false,
       "minAmount": 1,
       "maxAmount": 1,
       "chance": 1,
-      "variant": 3,
-      "bonusAmount": false
+      "variant": 3
     }
   ],
   "sizeScale": 1,

@@ -1,9 +1,9 @@
 {
   "itemName": "wendigoantler",
-  "loadDefault": true,
+  "loadDefault": false,
   "slotType": "base",
   "dropMobId": "lycanitesmobs:wendigo",
-  "dropChance": 0.2,
+  "dropChance": 0.1,
   "levelMin": 1,
   "levelMax": 3,
   "elements": [
@@ -69,7 +69,7 @@
       "projectileName": "tundra",
       "projectileTrigger": "secondary",
       "projectilePattern": "simple",
-      "cooldown": 20,
+      "cooldown": 30,
       "count": 1
     },
     {
@@ -79,7 +79,7 @@
       "projectileName": "tundra",
       "projectileTrigger": "secondary",
       "projectilePattern": "simple",
-      "cooldown": 16,
+      "cooldown": 20,
       "count": 1,
       "bonusDamage": 1
     },
@@ -89,7 +89,7 @@
       "projectileName": "tundra",
       "projectileTrigger": "secondary",
       "projectilePattern": "simple",
-      "cooldown": 8,
+      "cooldown": 10,
       "count": 1,
       "bonusDamage": 2
     }

@@ -10,7 +10,12 @@
       }
     ],
     "blacklist": [
-    
+      {
+        "item": "iceandfire:earplugs"
+      },
+	  {
+        "item": "iceandfire:blindfold"
+      }
     ],
     "qualities": [
       {

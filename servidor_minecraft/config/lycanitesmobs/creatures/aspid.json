@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityAspid",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelAspid",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -17,16 +17,16 @@
     "disableSubspecies": false,
     "dimensionIds": [
       -1,
+	  111,
       1
     ],
     "dimensionListType": "blacklist",
     "ignoreBiome": false,
     "biomeTags": [
       "swamp",
-      "spooky",
-      "mushroom"
+      "spooky"
     ],
-    "spawnWeight": 16,
+    "spawnWeight": 12,
     "dungeonWeight": 0,
     "spawnAreaLimit": 5,
     "spawnGroupMin": 1,

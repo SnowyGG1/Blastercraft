@@ -4,12 +4,12 @@
 weight=2
 embed_into_distance=1
 
-unacceptable_target_blocks=flowing_water,water,flowing_lava,lava,Natura:Cloud,red_mushroom_block,brown_mushroom_block,planks,cobblestone,end_stone,obsidian,purpur_block,iron_bars,purpur_slab,purpur_pillar,netherrack,soul_sand,quartz_ore
+unacceptable_target_blocks=bedrock,magma,gravel,nether_brick,glowstone,flowing_water,water,flowing_lava,lava,Natura:Cloud,red_mushroom_block,brown_mushroom_block,planks,cobblestone,end_stone,obsidian,purpur_block,iron_bars,purpur_slab,purpur_pillar,netherrack,soul_sand,quartz_ore
 
 dimensions=5,5,5
 allowable_overhang=1
-max_leveling=2
-leveling_buffer=0
+max_leveling=0
+leveling_buffer=2
 preserve_water=0
 preserve_lava=0
 preserve_plants=1
@@ -24,11 +24,11 @@ rule6=2,50,vine-2
 
 
 layer
-0,0,0,0,0
-1,1,1,1,0
-1,1,1,1,0
-1,1,1,1,0
-1,1,1,1,0
+1,1,1,1,1
+1,1,1,1,1
+1,1,1,1,1
+1,1,1,1,1
+1,1,1,1,1
 endlayer
 
 layer

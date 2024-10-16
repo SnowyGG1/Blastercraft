@@ -7,6 +7,14 @@
       "temperature": -2.0
     }
   ],
+  "iceandfire:sheep_chestplate": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
   "simpledifficulty:ice_helmet": [
     {
       "identity": {
@@ -21,6 +29,38 @@
         "metadata": -1
       },
       "temperature": 2.0
+    }
+  ],
+  "iceandfire:sheep_leggings": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 1.0
+    }
+  ],
+  "simpledifficulty:wool_leggings": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 2.0
+    }
+  ],
+  "simpledifficulty:wool_chestplate": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 2.0
+    }
+  ],
+  "simpledifficulty:ice_leggings": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": -2.0
     }
   ],
   "simpledifficulty:ice_boots": [
@@ -47,28 +87,20 @@
       "temperature": -0.25
     }
   ],
-  "simpledifficulty:wool_leggings": [
+  "iceandfire:sheep_helmet": [
     {
       "identity": {
         "metadata": -1
       },
-      "temperature": 2.0
+      "temperature": 1.0
     }
   ],
-  "simpledifficulty:wool_chestplate": [
+  "iceandfire:sheep_boots": [
     {
       "identity": {
         "metadata": -1
       },
-      "temperature": 2.0
-    }
-  ],
-  "simpledifficulty:ice_leggings": [
-    {
-      "identity": {
-        "metadata": -1
-      },
-      "temperature": -2.0
+      "temperature": 1.0
     }
   ]
 }

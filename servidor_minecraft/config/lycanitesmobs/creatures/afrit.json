@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityAfrit",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelAfrit",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -91,7 +91,7 @@
       "chance": 1
     },
     {
-      "item": "minecraft:blaze_rod",
+      "item": "minecraft:blaze_powder",
       "minAmount": 1,
       "maxAmount": 2,
       "chance": 0.25

@@ -1,6 +1,6 @@
 {
   "name": "streamshrine",
-  "loadDefault": true,
+  "loadDefault": false,
   "sectorCountMin": 5,
   "sectorCountMax": 10,
   "corridorToCorridorChance": 0.1,
@@ -12,10 +12,10 @@
         0
       ],
       "dimensionListType": "whitelist",
-      "biomeTags": [
-        "ocean"
+      "biomeIds": [
+        "minecraft:deep_ocean"
       ],
-      "biomeTagListType": "whitelist"
+      "biomeIdListType": "whitelist"
     }
   ],
   "placer": {
@@ -131,7 +131,7 @@
       "mobNameTag": "Bruce",
       "mobSizeScale": 4,
       "naturalDespawn": "false",
-      "mobLevel": 100,
+      "mobLevel": 50,
       "spawnAsBoss": true,
       "dungeonLevelMin": "0",
       "dungeonLevelMax": 2,
@@ -149,9 +149,9 @@
       "weight": 1,
       "variant": 1,
       "mobNameTag": "The Loch Ness",
-      "mobSizeScale": 1.5,
+      "mobSizeScale": 1,
       "naturalDespawn": "false",
-      "mobLevel": 100,
+      "mobLevel": 25,
       "spawnAsBoss": true,
       "dungeonLevelMin": 3,
       "dungeonLevelMax": 4,
@@ -163,20 +163,20 @@
           "amountMultiplier": false
         },
         {
-          "item": "lycanitesmobs:soulstone_aquatic",
+          "item": "lycanitesmobs:soulstone_reptile",
           "amountMultiplier": false,
           "bonusAmount": false
         }
       ]
     },
     {
-      "mobId": "lycanitesmobs:herma",
+      "mobId": "lycanitesmobs:ioray",
       "weight": 1,
       "variant": 2,
       "mobSizeScale": 5,
-      "mobNameTag": "Tamatoa",
+      "mobNameTag": "Man Ray",
       "naturalDespawn": "false",
-      "mobLevel": 100,
+      "mobLevel": 200,
       "spawnAsBoss": true,
       "dungeonLevelMin": 5,
       "dungeonBoss": true,

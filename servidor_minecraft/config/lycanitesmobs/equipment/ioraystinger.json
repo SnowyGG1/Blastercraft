@@ -1,9 +1,9 @@
 {
   "itemName": "ioraystinger",
-  "loadDefault": true,
+  "loadDefault": false,
   "slotType": "pommel",
   "dropMobId": "lycanitesmobs:ioray",
-  "dropChance": 0.2,
+  "dropChance": 0.05,
   "levelMin": 1,
   "levelMax": 3,
   "elements": [
@@ -17,7 +17,7 @@
       "projectileName": "waterjet",
       "projectileTrigger": "secondary",
       "projectilePattern": "simple",
-      "cooldown": 20,
+      "cooldown": 120,
       "count": 1
     },
     {
@@ -27,7 +27,7 @@
       "projectileName": "waterjet",
       "projectileTrigger": "secondary",
       "projectilePattern": "simple",
-      "cooldown": 16,
+      "cooldown": 80,
       "count": 1,
       "bonusDamage": 1
     },
@@ -37,7 +37,7 @@
       "projectileName": "waterjet",
       "projectileTrigger": "secondary",
       "projectilePattern": "simple",
-      "cooldown": 8,
+      "cooldown": 40,
       "count": 1,
       "bonusDamage": 2
     }

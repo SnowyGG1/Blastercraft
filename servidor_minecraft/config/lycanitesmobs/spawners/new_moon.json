@@ -2,7 +2,7 @@
   "name": "new_moon",
   "type": "spawner",
   "enabled": true,
-  "loadDefault": true,
+  "loadDefault": false,
   "mobCountMin": 6,
   "ignoreBiomes": true,
   "ignoreLightLevel": false,
@@ -20,8 +20,8 @@
   "triggers": [
     {
       "type": "world",
-      "chance": 1,
-      "tickRate": 600
+      "chance": 0.25,
+      "tickRate": 1800
     }
   ],
   "locations": [

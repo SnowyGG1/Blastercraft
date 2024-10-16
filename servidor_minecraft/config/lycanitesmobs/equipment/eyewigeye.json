@@ -1,9 +1,9 @@
 {
   "itemName": "eyewigeye",
-  "loadDefault": true,
+  "loadDefault": false,
   "slotType": "jewel",
   "dropMobId": "lycanitesmobs:eyewig",
-  "dropChance": 0.2,
+  "dropChance": 0.05,
   "levelMin": 1,
   "levelMax": 3,
   "elements": [
@@ -16,7 +16,7 @@
       "projectileName": "poisonray",
       "projectileTrigger": "secondary",
       "projectilePattern": "simple",
-      "cooldown": 20,
+      "cooldown": 24,
       "count": 1
     },
     {

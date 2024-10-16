@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityDawon",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelDawon",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -41,7 +41,7 @@
   "health": 15,
   "defense": 1,
   "armor": 0,
-  "speed": 26,
+  "speed": 30,
   "damage": 1,
   "attackSpeed": 2,
   "rangedSpeed": 1,
@@ -103,14 +103,14 @@
       "minAmount": 1,
       "maxAmount": 2,
       "chance": 0.01,
-      "subspecies": 1
+      "variant": 1
     },
     {
       "item": "minecraft:diamond",
       "minAmount": 1,
       "maxAmount": 2,
       "chance": 0.01,
-      "subspecies": 2
+      "variant": 2
     }
   ],
   "sizeScale": 1,

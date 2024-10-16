@@ -1,9 +1,9 @@
 {
   "itemName": "reaperclaw",
-  "loadDefault": true,
+  "loadDefault": false,
   "slotType": "axe",
   "dropMobId": "lycanitesmobs:reaper",
-  "dropChance": 0.1,
+  "dropChance": 0.05,
   "levelMin": 1,
   "levelMax": 3,
   "elements": [
@@ -80,7 +80,7 @@
       "projectileName": "spectralbolt",
       "projectileTrigger": "primary",
       "projectilePattern": "simple",
-      "cooldown": 20,
+      "cooldown": 60,
       "count": 1
     },
     {
@@ -90,7 +90,7 @@
       "projectileName": "spectralbolt",
       "projectileTrigger": "primary",
       "projectilePattern": "simple",
-      "cooldown": 16,
+      "cooldown": 40,
       "count": 1,
       "bonusDamage": 1
     },
@@ -100,7 +100,7 @@
       "projectileName": "spectralbolt",
       "projectileTrigger": "primary",
       "projectilePattern": "simple",
-      "cooldown": 8,
+      "cooldown": 20,
       "count": 1,
       "bonusDamage": 2
     }

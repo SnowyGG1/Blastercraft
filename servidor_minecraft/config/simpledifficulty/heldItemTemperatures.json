@@ -23,6 +23,14 @@
       "temperature": 3.0
     }
   ],
+  "minecraft:blaze_rod": [
+    {
+      "identity": {
+        "metadata": -1
+      },
+      "temperature": 2.0
+    }
+  ],
   "minecraft:torch": [
     {
       "identity": {

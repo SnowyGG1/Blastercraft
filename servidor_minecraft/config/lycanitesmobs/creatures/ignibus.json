@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityIgnibus",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelIgnibus",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -35,8 +35,8 @@
   "height": 8.9,
   "experience": 30,
   "health": 400,
-  "defense": 3,
-  "armor": 0,
+  "defense": 2,
+  "armor": 12,
   "speed": 24,
   "damage": 4,
   "attackSpeed": 1,
@@ -47,7 +47,7 @@
   "sight": 24,
   "knockbackResistance": 0.5,
   "packSize": 1,
-  "bagSize": 5,
+  "bagSize": 15,
   "tamingReputation": 3000,
   "eggBackColor": "#BB0000",
   "eggForeColor": "#00DD00",
@@ -118,10 +118,5 @@
     }
   ],
   "sizeScale": 1,
-  "hitboxScale": 1,
-  "mountOffset": [
-    0,
-    0.58,
-    0.1
-  ]
+  "hitboxScale": 1
 }

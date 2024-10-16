@@ -2,18 +2,16 @@
   "name": "amalgalich",
   "type": "event",
   "enabled": true,
-  "loadDefault": true,
+  "loadDefault": false,
   "channel": "boss",
   "duration": 600,
   "conditions": [
     {
       "type": "world",
-      "dimensionIds": [],
-      "dimensionListType": "blacklist"
-    },
-    {
-      "type": "player",
-      "spawnDistanceMin": 5000
+      "dimensionIds": [
+        111
+      ],
+      "dimensionListType": "whitelist"
     }
   ],
   "levelBoostMax": 0,

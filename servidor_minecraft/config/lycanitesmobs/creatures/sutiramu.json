@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntitySutiramu",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelSutiramu",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -44,7 +44,7 @@
   "experience": 5,
   "health": 25,
   "defense": 1,
-  "armor": 0,
+  "armor": 4,
   "speed": 28,
   "damage": 2,
   "attackSpeed": 1,

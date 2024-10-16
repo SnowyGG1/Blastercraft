@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityAstaroth",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelAstaroth",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -116,7 +116,7 @@
   "summonable": true,
   "tameable": false,
   "mountable": false,
-  "summonCost": 3,
+  "summonCost": 5,
   "dungeonLevel": 3,
   "drops": [
     {

@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityCacodemon",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelCacodemon",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -114,11 +114,12 @@
     },
     {
       "item": "lycanitesmobs:soulstone_demon",
+	  "amountMultiplier": false,
+	  "bonusAmount": false,
       "minAmount": 1,
       "maxAmount": 1,
       "chance": 1,
-      "variant": 3,
-      "bonusAmount": false
+      "variant": 3
     }
   ],
   "sizeScale": 1,

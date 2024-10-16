@@ -8,7 +8,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityCalpod",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelCalpod",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -43,7 +43,7 @@
   "experience": 5,
   "health": 5,
   "defense": 0,
-  "armor": 0,
+  "armor": 4,
   "speed": 28,
   "damage": 1,
   "attackSpeed": 1,

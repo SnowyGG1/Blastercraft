@@ -1,6 +1,6 @@
 {
   "name": "vespid_hive",
-  "loadDefault": true,
+  "loadDefault": false,
   "floorPattern": "random",
   "wallPattern": "random",
   "ceilingPattern": "random",
@@ -28,12 +28,6 @@
       "weight": 8
     }
   ],
-  "airBlocks": [
-    {
-      "blockId": "minecraft:air",
-      "weight": 8
-    }
-  ],
   "torchBlocks": [],
   "stairBlocks": [],
   "pitBlocks": [
@@ -42,7 +36,7 @@
       "weight": 8
     },
     {
-      "blockId": "lycanitesmobs:veshoney",
+      "blockId": "rustic:honey",
       "weight": 8
     }
   ]

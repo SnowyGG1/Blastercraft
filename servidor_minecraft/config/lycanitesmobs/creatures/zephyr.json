@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityZephyr",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelZephyr",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -73,13 +73,13 @@
     {
       "item": "minecraft:glowstone_dust",
       "minAmount": 1,
-      "maxAmount": 8,
+      "maxAmount": 6,
       "chance": 1
     },
     {
       "item": "minecraft:gunpowder",
       "minAmount": 1,
-      "maxAmount": 3,
+      "maxAmount": 4,
       "chance": 1
     },
     {

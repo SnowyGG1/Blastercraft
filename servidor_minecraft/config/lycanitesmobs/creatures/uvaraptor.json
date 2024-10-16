@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityUvaraptor",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelUvaraptor",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -41,7 +41,7 @@
   "health": 30,
   "defense": 0,
   "armor": 0,
-  "speed": 40,
+  "speed": 36,
   "damage": 4,
   "attackSpeed": 1,
   "rangedSpeed": 1,
@@ -91,7 +91,7 @@
     {
       "item": "minecraft:bone",
       "minAmount": 1,
-      "maxAmount": 3,
+      "maxAmount": 2,
       "chance": 1
     },
     {

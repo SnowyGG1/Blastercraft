@@ -1,6 +1,6 @@
 {
   "name": "ashenmausoleum",
-  "loadDefault": true,
+  "loadDefault": false,
   "sectorCountMin": 10,
   "sectorCountMax": 20,
   "corridorToCorridorChance": 0.1,
@@ -172,7 +172,7 @@
           "amountMultiplier": false
         },
         {
-          "item": "lycanitesmobs:soulstone_elemental",
+          "item": "lycanitesmobs:soulstone_amphibian",
           "amountMultiplier": false,
           "bonusAmount": false
         },
@@ -190,7 +190,7 @@
       "mobSizeScale": 1.1,
       "mobNameTag": "The Tyrant Dragon",
       "naturalDespawn": "false",
-      "mobLevel": 10,
+      "mobLevel": 5,
       "spawnAsBoss": true,
       "dungeonLevelMin": 5,
       "dungeonBoss": true,

@@ -65,7 +65,7 @@
   {
     "identifier": "lively",
     "enabled": true,
-    "entityBlacklist": [],
+    "entityBlacklist": ["minecraft:ender_dragon","minecraft:wither","lycanitesmobs:amalgalich","lycanitesmobs:asmodeus","lycanitesmobs:rahovart"],
     "alwaysOnEntity": [],
     "tier": 1
   },

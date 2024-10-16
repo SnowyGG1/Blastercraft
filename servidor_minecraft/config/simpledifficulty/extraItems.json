@@ -1,17 +1,17 @@
 {
   "frost_powder": {
     "_comment": "Frost Powder - For recipes",
-    "enabled": false,
+    "enabled": true,
     "settings": {}
   },
   "frost_rod": {
     "_comment": "Frost Rod - For recipes",
-    "enabled": false,
+    "enabled": true,
     "settings": {}
   },
   "dragon_canteen": {
     "_comment": "Dragon Canteen - Automatically purifies water",
-    "enabled": false,
+    "enabled": true,
     "settings": {
       "capacity": "8"
     }

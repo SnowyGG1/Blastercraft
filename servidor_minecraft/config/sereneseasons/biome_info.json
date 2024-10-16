@@ -9,16 +9,6 @@
     "use_tropical_seasons": false,
     "disable_crops": false
   },
-  "climaticbiomesjbg:tropical_forest_hills": {
-    "enable_seasonal_effects": true,
-    "use_tropical_seasons": true,
-    "disable_crops": false
-  },
-  "climaticbiomesjbg:dense_scrub": {
-    "enable_seasonal_effects": true,
-    "use_tropical_seasons": true,
-    "disable_crops": false
-  },
   "biomesoplenty:flower_island": {
     "enable_seasonal_effects": false,
     "use_tropical_seasons": true,
@@ -30,9 +20,9 @@
     "disable_crops": false
   },
   "traverse:badlands": {
-    "enable_seasonal_effects": true,
-    "use_tropical_seasons": true,
-    "disable_crops": false
+    "enable_seasonal_effects": false,
+    "use_tropical_seasons": false,
+    "disable_crops": true
   },
   "traverse:desert_shrubland": {
     "enable_seasonal_effects": true,
@@ -45,8 +35,8 @@
     "disable_crops": false
   },
   "minecraft:deep_ocean": {
-    "enable_seasonal_effects": false,
-    "use_tropical_seasons": false,
+    "enable_seasonal_effects": true,
+    "use_tropical_seasons": true,
     "disable_crops": false
   },
   "biomesoplenty:ominous_woods": {
@@ -89,27 +79,12 @@
     "use_tropical_seasons": true,
     "disable_crops": false
   },
-  "climaticbiomesjbg:dry_scrub": {
-    "enable_seasonal_effects": true,
-    "use_tropical_seasons": true,
-    "disable_crops": false
-  },
   "minecraft:jungle_hills": {
     "enable_seasonal_effects": true,
     "use_tropical_seasons": true,
     "disable_crops": false
   },
-  "climaticbiomesjbg:hot_mountain_trees": {
-    "enable_seasonal_effects": true,
-    "use_tropical_seasons": true,
-    "disable_crops": false
-  },
   "biomesoplenty:rainforest": {
-    "enable_seasonal_effects": true,
-    "use_tropical_seasons": true,
-    "disable_crops": false
-  },
-  "climaticbiomesjbg:subtropical_forest_hills": {
     "enable_seasonal_effects": true,
     "use_tropical_seasons": true,
     "disable_crops": false
@@ -124,11 +99,6 @@
     "use_tropical_seasons": false,
     "disable_crops": false
   },
-  "climaticbiomesjbg:tropical_forest": {
-    "enable_seasonal_effects": true,
-    "use_tropical_seasons": true,
-    "disable_crops": false
-  },
   "biomesoplenty:bayou": {
     "enable_seasonal_effects": true,
     "use_tropical_seasons": true,
@@ -140,8 +110,8 @@
     "disable_crops": false
   },
   "minecraft:river": {
-    "enable_seasonal_effects": false,
-    "use_tropical_seasons": false,
+    "enable_seasonal_effects": true,
+    "use_tropical_seasons": true,
     "disable_crops": false
   },
   "biomesoplenty:xeric_shrubland": {
@@ -160,11 +130,6 @@
     "disable_crops": false
   },
   "biomesoplenty:brushland": {
-    "enable_seasonal_effects": true,
-    "use_tropical_seasons": true,
-    "disable_crops": false
-  },
-  "climaticbiomesjbg:dense_scrub_hills": {
     "enable_seasonal_effects": true,
     "use_tropical_seasons": true,
     "disable_crops": false
@@ -234,11 +199,6 @@
     "use_tropical_seasons": true,
     "disable_crops": false
   },
-  "biomesoplenty:floodplains": {
-    "enable_seasonal_effects": true,
-    "use_tropical_seasons": true,
-    "disable_crops": false
-  },
   "minecraft:desert_hills": {
     "enable_seasonal_effects": true,
     "use_tropical_seasons": true,
@@ -285,6 +245,11 @@
     "disable_crops": false
   },
   "minecraft:ocean": {
+    "enable_seasonal_effects": true,
+    "use_tropical_seasons": true,
+    "disable_crops": false
+  },
+  "minecraft:mutated_forest": {
     "enable_seasonal_effects": false,
     "use_tropical_seasons": false,
     "disable_crops": false
@@ -334,18 +299,8 @@
     "use_tropical_seasons": true,
     "disable_crops": false
   },
-  "climaticbiomesjbg:dry_scrub_hills": {
-    "enable_seasonal_effects": true,
-    "use_tropical_seasons": true,
-    "disable_crops": false
-  },
   "minecraft:mushroom_island": {
     "enable_seasonal_effects": false,
-    "use_tropical_seasons": true,
-    "disable_crops": false
-  },
-  "climaticbiomesjbg:hot_mountain": {
-    "enable_seasonal_effects": true,
     "use_tropical_seasons": true,
     "disable_crops": false
   },
@@ -359,17 +314,7 @@
     "use_tropical_seasons": true,
     "disable_crops": false
   },
-  "climaticbiomesjbg:subtropical_forest": {
-    "enable_seasonal_effects": true,
-    "use_tropical_seasons": true,
-    "disable_crops": false
-  },
   "minecraft:mutated_mesa": {
-    "enable_seasonal_effects": true,
-    "use_tropical_seasons": true,
-    "disable_crops": false
-  },
-  "climaticbiomesjbg:pine_swamp": {
     "enable_seasonal_effects": true,
     "use_tropical_seasons": true,
     "disable_crops": false
@@ -385,11 +330,6 @@
     "disable_crops": false
   },
   "minecraft:savanna": {
-    "enable_seasonal_effects": true,
-    "use_tropical_seasons": true,
-    "disable_crops": false
-  },
-  "biomesoplenty:scrubland": {
     "enable_seasonal_effects": true,
     "use_tropical_seasons": true,
     "disable_crops": false

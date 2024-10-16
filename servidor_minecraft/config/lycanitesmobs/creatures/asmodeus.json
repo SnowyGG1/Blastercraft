@@ -6,7 +6,7 @@
   ],
   "entityClass": "com.lycanitesmobs.core.entity.creature.EntityAsmodeus",
   "modelClass": "com.lycanitesmobs.client.model.creature.ModelAsmodeus",
-  "loadDefault": true,
+  "loadDefault": false,
   "enabled": true,
   "spawning": {
     "enabled": true,
@@ -17,7 +17,7 @@
     ],
     "dimensionListType": "whitelist",
     "ignoreBiome": false,
-    "biomeTags": [
+    "biomes": [
       "nether"
     ],
     "spawnWeight": 1,
@@ -33,10 +33,10 @@
   },
   "width": 20.0,
   "height": 21.0,
-  "experience": 10000,
+  "experience": 8000,
   "health": 4000,
-  "defense": 2,
-  "armor": 0,
+  "defense": 4,
+  "armor": 10,
   "speed": 32,
   "damage": 2,
   "attackSpeed": 1,
@@ -111,63 +111,55 @@
     {
       "item": "minecraft:nether_star",
       "minAmount": 1,
-      "maxAmount": 8,
-      "chance": 1
-    },
-    {
-      "item": "lycanitesmobs:doomfireballcharge",
-      "minAmount": 10,
-      "maxAmount": 20,
-      "chance": 1
-    },
-    {
-      "item": "lycanitesmobs:hellfireballcharge",
-      "minAmount": 10,
-      "maxAmount": 20,
-      "chance": 1
-    },
-    {
-      "item": "lycanitesmobs:demonstone",
-      "minAmount": 64,
-      "maxAmount": 128,
-      "chance": 1
-    },
-    {
-      "item": "lycanitesmobs:demonstonebrick",
-      "minAmount": 64,
-      "maxAmount": 128,
-      "chance": 1
-    },
-    {
-      "item": "lycanitesmobs:demonstonetile",
-      "minAmount": 64,
-      "maxAmount": 128,
-      "chance": 1
-    },
-    {
-      "item": "lycanitesmobs:demoncrystal",
-      "minAmount": 64,
-      "maxAmount": 128,
-      "chance": 1
-    },
-    {
-      "item": "lycanitesmobs:soulstone_demon",
-      "minAmount": 1,
       "maxAmount": 3,
-      "chance": 1,
-      "bonusAmount": false
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:demonicblastcharge",
+      "minAmount": 10,
+      "maxAmount": 20,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:devilstarcharge",
+      "minAmount": 10,
+      "maxAmount": 20,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:aberrantstone",
+      "minAmount": 64,
+      "maxAmount": 128,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:aberrantstonebrick",
+      "minAmount": 64,
+      "maxAmount": 128,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:aberrantstonetile",
+      "minAmount": 64,
+      "maxAmount": 128,
+      "chance": 1
+    },
+    {
+      "item": "lycanitesmobs:aberrantcrystal",
+      "minAmount": 64,
+      "maxAmount": 128,
+      "chance": 1
     },
     {
       "item": "lycanitesmobs:soulstone_aberration",
       "minAmount": 1,
       "maxAmount": 3,
-      "chance": 1,
-      "bonusAmount": false
+      "chance": 1
     },
     {
-      "item": "lycanitesmobs:wraithsigil",
-      "minAmount": 1,
-      "maxAmount": 1,
+      "item": "variedcommodities:skull",
+      "minAmount": 8,
+      "maxAmount": 16,
       "chance": 1
     }
   ],

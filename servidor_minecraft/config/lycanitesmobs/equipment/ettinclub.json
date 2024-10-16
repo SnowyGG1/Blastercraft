@@ -1,6 +1,6 @@
 {
   "itemName": "ettinclub",
-  "loadDefault": true,
+  "loadDefault": false,
   "slotType": "pike",
   "dropMobId": "lycanitesmobs:ettin",
   "dropChance": 0.1,
@@ -41,12 +41,22 @@
       "count": 1,
       "bonusDamage": 12
     },
-    {
+	{
       "featureType": "damage",
-      "levelMax": 2,
+      "levelMax": 1,
       "damageAmount": 4,
       "damageKnockback": 2,
       "damageCooldown": 2,
+      "damageRange": 1,
+      "damageSweep": 360
+    },
+    {
+      "featureType": "damage",
+	  "levelMin": 2,
+      "levelMax": 2,
+      "damageAmount": 6,
+      "damageKnockback": 3,
+      "damageCooldown": 3,
       "damageRange": 1,
       "damageSweep": 360
     },

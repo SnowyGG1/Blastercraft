@@ -3,7 +3,7 @@
     "despawnItem": 6000,
     "customThrow": true,
     "fallSounds": true,
-    "enableIgniting": true,
+    "enableIgniting": false,
     "swimmingItems": {
       "entries": [
         "{material:\"minecraft:planks\",count:1,id:\"material\"}",
@@ -93,11 +93,7 @@
         "{material:\"minecraft:web\",count:1,id:\"material\"}",
         "{material:\"minecraft:grass\",count:1,id:\"material\"}",
         "{count:1,block:\"minecraft:snow\",id:\"block\"}",
-        "{count:1,name:\"axe\",id:\"name\"}",
         "{count:1,name:\"wooden\",id:\"name\"}",
-        "{count:1,name:\"shovel\",id:\"name\"}",
-        "{count:1,name:\"hoe\",id:\"name\"}",
-        "{count:1,name:\"sword\",id:\"name\"}",
         "{item:\"minecraft:apple\",count:1,id:\"item\"}",
         "{item:\"minecraft:bow\",count:1,id:\"item\"}",
         "{item:\"minecraft:bowl\",count:1,id:\"item\"}",
@@ -165,7 +161,18 @@
         "{count:1,id:\"fuel\"}",
         "{item:\"minecraft:spider_eye\",count:1,id:\"item\"}",
         "{item:\"minecraft:rotten_flesh\",count:1,id:\"item\"}",
-        "{item:\"minecraft:snowball\",count:1,id:\"item\"}"
+        "{item:\"minecraft:snowball\",count:1,id:\"item\"}",
+        "{count:1,name:\"leather\",id:\"name\"}",
+        "{count:1,name:\"food\",id:\"name\"}",
+        "{count:1,name:\"raw\",id:\"name\"}",
+        "{count:1,name:\"cooked\",id:\"name\"}",
+        "{ore:\"string\",count:1,id:\"ore\"}",
+        "{ore:\"book\",count:1,id:\"ore\"}",
+        "{material:\"minecraft:glass\",count:1,id:\"material\"}",
+        "{count:1,name:\"potion\",id:\"name\"}",
+        "{count:1,name:\"fluid_bottle\",id:\"name\"}",
+        "{count:1,name:\"juice\",id:\"name\"}",
+        "{ore:\"itemEmptyBottle\",count:1,id:\"ore\"}"
       ],
       "isWhitelist": true
     },
@@ -174,7 +181,10 @@
         "{item:\"minecraft:nether_star\",count:1,id:\"item\"}",
         "{count:1,block:\"minecraft:bedrock\",id:\"block\"}",
         "{count:1,block:\"minecraft:obsidian\",id:\"block\"}",
-        "{material:\"minecraft:barrier\",count:1,id:\"material\"}"
+        "{material:\"minecraft:barrier\",count:1,id:\"material\"}",
+        "{item:\"lycanitesmobs:cooked_cephignis_meat\",count:1,id:\"item\"}",
+        "{item:\"minecraft:blaze_rod\",count:1,id:\"item\"}",
+        "{item:\"minecraft:lava_bucket\",count:1,id:\"item\"}"
       ],
       "isWhitelist": true
     },
@@ -189,7 +199,7 @@
     }
   },
   "pickup": {
-    "customPickup": false,
+    "customPickup": true,
     "pickupWhenSneaking": true,
     "maximumPickupRange": 5.0,
     "pickupMinedImmediately": false,
